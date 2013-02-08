@@ -15,7 +15,21 @@
 #pragma mark property methods
 //------------------------------------------------------------------------------------------------------
 
+- (void) setSelectedImageName: (NSString *) newValue;
+{
+  _selectedImageName = [newValue copy];
+  self.selectedImage = [UIImage imageNamed: _selectedImageName];
+}
 
+//------------------------------------------------------------------------------------------------------
+
+- (void) setNotSelectedImageName: (NSString *) newValue;
+{
+  _notSelectedImageName = [newValue copy];
+  self.notSelectedImage = [UIImage imageNamed: _notSelectedImageName];
+}
+
+//------------------------------------------------------------------------------------------------------
 - (void) setSelected: (BOOL) newValue;
 {
 	if (newValue != self.isSelected)

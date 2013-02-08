@@ -19,8 +19,11 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
-  self.theCheckbox.notSelectedImage = [UIImage imageNamed: @"Checkbox.png"];
-  self.theCheckbox.selectedImage = [UIImage imageNamed: @"Checkbox-selected.png"];
+//  self.theCheckbox.notSelectedImage = [UIImage imageNamed: @"Checkbox.png"];
+//  self.theCheckbox.selectedImage = [UIImage imageNamed: @"Checkbox-selected.png"];
+  self.theCheckbox.notSelectedImageName = @"Checkbox.png";
+  self.theCheckbox.selectedImageName =  @"Checkbox-selected.png";
+  
   self.theCheckbox.selected = NO;
   [self setupCheckBoxStatusMessage];
 }

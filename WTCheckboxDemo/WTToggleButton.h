@@ -12,7 +12,11 @@
 
 @interface WTToggleButton : UIButton 
 
-@property (nonatomic, retain) UIImage*	notSelectedImage;
-@property (nonatomic, retain) UIImage*	selectedImage;
+@property (nonatomic, strong) UIImage*	notSelectedImage;
+@property (nonatomic, strong) UIImage*	selectedImage;
+
+//Use these properties to assign an image to your button by loading an image from the bundle by name.
+@property (nonatomic, copy) NSString *notSelectedImageName;
+@property (nonatomic, copy) NSString *selectedImageName;
 
 @end
