@@ -17,8 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+  _theCheckbox.notSelectedImage = [UIImage imageNamed: @"Checkbox.png"];
+  _theCheckbox.selectedImage = [UIImage imageNamed: @"Checkbox-selected.png"];
+  self.theCheckbox.selected = NO;
+  [self setupCheckBoxStatusMessage];
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,4 +31,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) setupCheckBoxStatusMessage;
+{
+  NSString *statusMessage;
+
+  if (self.theCheckbox.selected)
+    statusMessage = NSLocalizedString( @"Checkbox is selected", @"Checkbox selected message");
+  else
+    statusMessage = NSLocalizedString( @"Checkbox is not selected", @"Checkbox not selected message");
+  self.checkboxStatusLabel.text = statusMessage;
+}
+
+- (IBAction)userToggledCheckbox:(WTToggleButton *)sender
+{
+  NSLog(@"Checkbox status changed. New state = %d", sender.selected);
+  [self setupCheckBoxStatusMessage];
+}
 @end

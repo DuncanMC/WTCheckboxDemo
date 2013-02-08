@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WTToggleButton.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *checkboxStatusLabel;
+@property (weak, nonatomic) IBOutlet WTToggleButton *theCheckbox;
+
+- (IBAction)userToggledCheckbox:(WTToggleButton *)sender;
 
 @end

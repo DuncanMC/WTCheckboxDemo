@@ -18,6 +18,13 @@
 		AEFCB66116C53F3800D5C03C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFCB66016C53F3800D5C03C /* Default-568h@2x.png */; };
 		AEFCB66416C53F3800D5C03C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFCB66216C53F3800D5C03C /* MainStoryboard.storyboard */; };
 		AEFCB66716C53F3800D5C03C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFCB66616C53F3800D5C03C /* ViewController.m */; };
+		AEFCB66F16C53F4F00D5C03C /* WTToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFCB66E16C53F4F00D5C03C /* WTToggleButton.m */; };
+		AEFCB67316C542CB00D5C03C /* Checkbox-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFCB67116C542CB00D5C03C /* Checkbox-selected.png */; };
+		AEFCB67416C542CB00D5C03C /* Checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFCB67216C542CB00D5C03C /* Checkbox.png */; };
+		AEFCB67916C5481600D5C03C /* wareto-72.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFCB67516C5481600D5C03C /* wareto-72.png */; };
+		AEFCB67A16C5481600D5C03C /* wareto-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFCB67616C5481600D5C03C /* wareto-72@2x.png */; };
+		AEFCB67E16C5484500D5C03C /* wareto.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFCB67D16C5484500D5C03C /* wareto.png */; };
+		AEFCB68016C5485100D5C03C /* wareto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFCB67F16C5485100D5C03C /* wareto@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,14 @@
 		AEFCB66316C53F3800D5C03C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AEFCB66516C53F3800D5C03C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AEFCB66616C53F3800D5C03C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEFCB66D16C53F4F00D5C03C /* WTToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTToggleButton.h; sourceTree = "<group>"; };
+		AEFCB66E16C53F4F00D5C03C /* WTToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTToggleButton.m; sourceTree = "<group>"; };
+		AEFCB67116C542CB00D5C03C /* Checkbox-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkbox-selected.png"; sourceTree = "<group>"; };
+		AEFCB67216C542CB00D5C03C /* Checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkbox.png; sourceTree = "<group>"; };
+		AEFCB67516C5481600D5C03C /* wareto-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wareto-72.png"; sourceTree = "<group>"; };
+		AEFCB67616C5481600D5C03C /* wareto-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wareto-72@2x.png"; sourceTree = "<group>"; };
+		AEFCB67D16C5484500D5C03C /* wareto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wareto.png; sourceTree = "<group>"; };
+		AEFCB67F16C5485100D5C03C /* wareto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wareto@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,8 @@
 		AEFCB63E16C53F3800D5C03C = {
 			isa = PBXGroup;
 			children = (
+				AEFCB67F16C5485100D5C03C /* wareto@2x.png */,
+				AEFCB67D16C5484500D5C03C /* wareto.png */,
 				AEFCB65016C53F3800D5C03C /* WTCheckboxDemo */,
 				AEFCB64916C53F3800D5C03C /* Frameworks */,
 				AEFCB64816C53F3800D5C03C /* Products */,
@@ -83,6 +100,8 @@
 		AEFCB65016C53F3800D5C03C /* WTCheckboxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AEFCB66D16C53F4F00D5C03C /* WTToggleButton.h */,
+				AEFCB66E16C53F4F00D5C03C /* WTToggleButton.m */,
 				AEFCB65916C53F3800D5C03C /* AppDelegate.h */,
 				AEFCB65A16C53F3800D5C03C /* AppDelegate.m */,
 				AEFCB66216C53F3800D5C03C /* MainStoryboard.storyboard */,
@@ -96,6 +115,7 @@
 		AEFCB65116C53F3800D5C03C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AEFCB67016C542C100D5C03C /* Images */,
 				AEFCB65216C53F3800D5C03C /* WTCheckboxDemo-Info.plist */,
 				AEFCB65316C53F3800D5C03C /* InfoPlist.strings */,
 				AEFCB65616C53F3800D5C03C /* main.m */,
@@ -105,6 +125,17 @@
 				AEFCB66016C53F3800D5C03C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEFCB67016C542C100D5C03C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AEFCB67516C5481600D5C03C /* wareto-72.png */,
+				AEFCB67616C5481600D5C03C /* wareto-72@2x.png */,
+				AEFCB67116C542CB00D5C03C /* Checkbox-selected.png */,
+				AEFCB67216C542CB00D5C03C /* Checkbox.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +194,12 @@
 				AEFCB65F16C53F3800D5C03C /* Default@2x.png in Resources */,
 				AEFCB66116C53F3800D5C03C /* Default-568h@2x.png in Resources */,
 				AEFCB66416C53F3800D5C03C /* MainStoryboard.storyboard in Resources */,
+				AEFCB67316C542CB00D5C03C /* Checkbox-selected.png in Resources */,
+				AEFCB67416C542CB00D5C03C /* Checkbox.png in Resources */,
+				AEFCB67916C5481600D5C03C /* wareto-72.png in Resources */,
+				AEFCB67A16C5481600D5C03C /* wareto-72@2x.png in Resources */,
+				AEFCB67E16C5484500D5C03C /* wareto.png in Resources */,
+				AEFCB68016C5485100D5C03C /* wareto@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +213,7 @@
 				AEFCB65716C53F3800D5C03C /* main.m in Sources */,
 				AEFCB65B16C53F3800D5C03C /* AppDelegate.m in Sources */,
 				AEFCB66716C53F3800D5C03C /* ViewController.m in Sources */,
+				AEFCB66F16C53F4F00D5C03C /* WTToggleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
