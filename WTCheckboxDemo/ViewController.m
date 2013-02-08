@@ -14,27 +14,31 @@
 
 @implementation ViewController
 
+//------------------------------------------------------------------------------------------------------
+
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-  _theCheckbox.notSelectedImage = [UIImage imageNamed: @"Checkbox.png"];
-  _theCheckbox.selectedImage = [UIImage imageNamed: @"Checkbox-selected.png"];
+  [super viewDidLoad];
+  self.theCheckbox.notSelectedImage = [UIImage imageNamed: @"Checkbox.png"];
+  self.theCheckbox.selectedImage = [UIImage imageNamed: @"Checkbox-selected.png"];
   self.theCheckbox.selected = NO;
   [self setupCheckBoxStatusMessage];
 }
 
+//------------------------------------------------------------------------------------------------------
 
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super didReceiveMemoryWarning];
 }
+
+//------------------------------------------------------------------------------------------------------
 
 - (void) setupCheckBoxStatusMessage;
 {
   NSString *statusMessage;
-
+  
   if (self.theCheckbox.selected)
     statusMessage = NSLocalizedString( @"Checkbox is selected", @"Checkbox selected message");
   else
@@ -42,9 +46,11 @@
   self.checkboxStatusLabel.text = statusMessage;
 }
 
+//------------------------------------------------------------------------------------------------------
+
 - (IBAction)userToggledCheckbox:(WTToggleButton *)sender
 {
-  NSLog(@"Checkbox status changed. New state = %d", sender.selected);
+  //NSLog(@"Checkbox status changed. New state = %d", sender.selected);
   [self setupCheckBoxStatusMessage];
 }
 @end
