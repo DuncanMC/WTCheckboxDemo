@@ -27,22 +27,6 @@
 			[self setImage: _notSelectedImage forState: UIControlStateNormal];
 	} 
 }
-//------------------------------------------------------------------------------------------------------
-
-- (BOOL)beginTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event
-{
-  [super beginTrackingWithTouch:touch withEvent:event];
-  
-  return YES;
-}
-
-//------------------------------------------------------------------------------------------------------
-
-- (BOOL)continueTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event
-{
-  [super continueTrackingWithTouch:touch withEvent:event];
-  return YES;
-}
 
 //------------------------------------------------------------------------------------------------------
 
@@ -54,13 +38,6 @@
     self.selected = !self.selected;
     [self sendActionsForControlEvents:UIControlEventValueChanged];
   }
-}
-
-//------------------------------------------------------------------------------------------------------
-
-- (void)cancelTrackingWithEvent:(UIEvent *)event
-{
-  [super cancelTrackingWithEvent:event];
 }
 
 //------------------------------------------------------------------------------------------------------

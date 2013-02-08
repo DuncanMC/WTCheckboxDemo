@@ -23,6 +23,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="selectedImage" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="userToggledCheckbox:" destination="2" eventType="valueChanged" id="kmg-tn-rr5"/>
                                 </connections>
@@ -61,19 +64,6 @@
     <resources>
         <image name="wareto-150x150.png" width="150" height="150"/>
     </resources>
-    <classes>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="userToggledCheckbox:" candidateClass="WTToggleButton"/>
-                <relationship kind="outlet" name="checkboxStatusLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="theCheckbox" candidateClass="WTToggleButton"/>
-            </relationships>
-        </class>
-        <class className="WTToggleButton" superclassName="UIButton">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WTToggleButton.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
