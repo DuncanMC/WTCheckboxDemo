@@ -24,7 +24,8 @@ dsa_priv.pem
 *.pbxuser
 # Xcode 4
 *xcuserdata/*
-/ChromaKey.xcodeproj/xcuserdata/*
+/WTCheckboxDemo.xcodeproj/project.xcworkspace/xcuserdata/*
+/WTCheckboxDemo.xcodeproj/xcuserdata/*
 #project.xcworkspace/
 # Generated files
 VersionX-revision.h
