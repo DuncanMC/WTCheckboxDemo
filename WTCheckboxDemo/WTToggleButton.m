@@ -3,8 +3,8 @@
 //  SaveMyPlace
 //
 //  Created by Duncan Champney on 12/29/09.
-//  Copyright 2009 WareTo. All rights reserved.
-//
+//  Copyright 2009 WareTo. May be used for any purpose as long as this copyright notice remains.
+//  WareTo logo and other artwork is Copyright (c) 2013 WareTo and may not be used outside of this demo.
 
 #import "WTToggleButton.h"
 

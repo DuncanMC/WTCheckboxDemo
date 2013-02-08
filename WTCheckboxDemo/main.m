@@ -3,7 +3,7 @@
 //  WTCheckboxDemo
 //
 //  Created by Duncan Champney on 2/8/13.
-//  Copyright (c) 2013 Duncan Champney. All rights reserved.
+//  Copyright (c) 2013 WareTo. May be used for any purpose as long as this copyright notice remains.
 //
 
 #import <UIKit/UIKit.h>
